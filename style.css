@@ -41,3 +41,15 @@ body{
     text-align: center;
     vertical-align: center;
 }
+
+#jugador-text {
+    color: white;
+    text-transform: uppercase;
+}
+
+#nuevo-juego{
+    background-color: orange;
+    padding: 5px;
+    border: 2px solid white;
+    color: white;
+}

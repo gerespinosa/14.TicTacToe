@@ -1,6 +1,6 @@
 window.onload = () => {
     const casillas = document.querySelectorAll('.casilla');
-    let jugador = document.getElementById('jugadorText');
+    let jugador = document.getElementById('jugador-text');
     const casilla1 = document.getElementById('casilla1')
     const casilla2 = document.getElementById('casilla2')
     const casilla3 = document.getElementById('casilla3')
@@ -63,13 +63,11 @@ window.onload = () => {
                 if (jugador.textContent == 'Ganador jugador 1')
                 {
                     jugador.style.backgroundColor = 'skyblue'
-                    jugador.style.textTransform = 'uppercase'
                     jugador.style.border = '2px solid orange'
                     jugador.style.padding = '5px'
                 }
                 else if (jugador.textContent == 'Ganador jugador 2'){
                     jugador.style.backgroundColor = 'purple'
-                    jugador.style.textTransform = 'uppercase'
                     jugador.style.border = '2px solid orange'
                     jugador.style.padding = '5px'
                 }
